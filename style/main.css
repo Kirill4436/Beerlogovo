@@ -1,0 +1,8 @@
+.logotip {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width: 30%;
+    height: 30%;
+    transition: transform 0.3sease;
+}
