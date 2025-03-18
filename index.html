@@ -1,31 +1,238 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/img/favicon-16x16.png" type="image/x-icon">
-    <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/main.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>BEERLOGOVO - Пивной магазин</title>
 </head>
 <body>
-   
     <header class="header">
-
-        <!-- Название сайта -->
+        <!-- Логотип и название сайта -->
         <a href="#" class="logo">
-            <img src="img/logotip.png" alt="Site Logo" class="logo-img">
+            <span class="logo-text">BEERLOGOVO</span>
         </a>
 
         <!-- Навигационное меню -->
         <nav class="main-nav">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#algoritms" class="nav-link">Products</a></li>
-                <li class="nav-item"><a href="#it-tech" class="nav-link">Solutions</a></li>
-                <li class="nav-item"><a href="#cybersecurity" class="nav-link">Community</a></li>
-                <li class="nav-item"><a href="#cybersecurity" class="nav-link">Resources</a></li>
+                <li class="nav-item"><a href="#beer" class="nav-link">Пиво</a></li>
+                <li class="nav-item"><a href="#snacks" class="nav-link">Закуски</a></li>
+                <li class="nav-item"><a href="#offers" class="nav-link">Акции</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">О нас</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
             </ul>
         </nav>
     </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">BEERLOGOVO</h1>
+            <p class="hero-subtitle">Лучшее пиво для настоящих ценителей</p>
+            <p class="hero-address">п. Пивозаврино, ул. Пивная, д. 42</p>
+            <p class="hero-quote">"Один бочонок хорошего пива - и ты мужик!"</p>
+            <a href="#beer" class="hero-button">Выбрать пиво</a>
+        </div>
+    </section>
+
+    <section id="beer" class="section">
+        <div class="container">
+            <h2 class="section-title">Наше пиво</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://via.placeholder.com/300x200/amber/fff?text=Светлое+пиво')"><img src="/img/Turbotext AI Image 7708697.png"></div>
+                    <h3 class="product-title">Светлое пиво "Золотой Хмель"</h3>
+                    <p class="product-description">Легкое светлое пиво с нотками цитрусов и мёда. Идеально подойдёт для тёплых летних вечеров и веселых посиделок с друзьями.</p>
+                    <div class="product-details">
+                        <span class="product-price">от 150 ₽</span>
+                        <span class="product-volume">0.5 л</span>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://via.placeholder.com/300x200/8B4513/fff?text=Темное+пиво')"></div>
+                    <h3 class="product-title">Темное пиво "Медвежья Сила"</h3>
+                    <p class="product-description">Насыщенное темное пиво с карамельными нотками и легким кофейным послевкусием. Для истинных ценителей глубокого вкуса.</p>
+                    <div class="product-details">
+                        <span class="product-price">от 180 ₽</span>
+                        <span class="product-volume">0.5 л</span>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://via.placeholder.com/300x200/D2691E/fff?text=Пшеничное+пиво')"></div>
+                    <h3 class="product-title">Пшеничное пиво "Белая Пена"</h3>
+                    <p class="product-description">Освежающее пшеничное пиво с легкой кислинкой и фруктовыми нотками. Прекрасно утоляет жажду в жаркий день.</p>
+                    <div class="product-details">
+                        <span class="product-price">от 160 ₽</span>
+                        <span class="product-volume">0.5 л</span>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://via.placeholder.com/300x200/8B0000/fff?text=Вишневое+пиво')"></div>
+                    <h3 class="product-title">Вишневое пиво "Ягодный Сезон"</h3>
+                    <p class="product-description">Фруктовое пиво с ярким вишневым вкусом. Идеальный выбор для тех, кто любит необычные сладковатые сорта.</p>
+                    <div class="product-details">
+                        <span class="product-price">от 190 ₽</span>
+                        <span class="product-volume">0.5 л</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="snacks" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Закуски к пиву</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://via.placeholder.com/300x200/CD853F/fff?text=Сырные+палочки')"></div>
+                    <h3 class="product-title">Сырные палочки</h3>
+                    <p class="product-description">Хрустящие сырные палочки, идеально сочетаются с любым сортом пива. Отличная закуска для компании.</p>
+                    <div class="product-details">
+                        <span class="product-price">250 ₽</span>
+                        <span class="product-weight">150 г</span>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://via.placeholder.com/300x200/B8860B/fff?text=Вяленая+рыба')"></div>
+                    <h3 class="product-title">Вяленая рыба ассорти</h3>
+                    <p class="product-description">Набор вяленой рыбы: лещ, тарань, вобла. Классическая закуска к пиву для настоящих ценителей.</p>
+                    <div class="product-details">
+                        <span class="product-price">350 ₽</span>
+                        <span class="product-weight">200 г</span>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://via.placeholder.com/300x200/DAA520/fff?text=Сушеные+кольца+кальмара')"></div>
+                    <h3 class="product-title">Сушеные кольца кальмара</h3>
+                    <p class="product-description">Нежные кольца кальмара с пряными специями. Отлично дополнят вкус светлого пива.</p>
+                    <div class="product-details">
+                        <span class="product-price">280 ₽</span>
+                        <span class="product-weight">100 г</span>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('https://via.placeholder.com/300x200/A0522D/fff?text=Гренки+с+чесноком')"></div>
+                    <h3 class="product-title">Гренки с чесноком</h3>
+                    <p class="product-description">Хрустящие ароматные гренки с чесноком и специями. Популярная закуска, которая нравится всем.</p>
+                    <div class="product-details">
+                        <span class="product-price">180 ₽</span>
+                        <span class="product-weight">120 г</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="offers" class="section">
+        <div class="container">
+            <h2 class="section-title">Акции и спецпредложения</h2>
+            <div class="offers-container">
+                <div class="offer-card">
+                    <h3 class="offer-title">Счастливые часы</h3>
+                    <p class="offer-description">Каждый день с 15:00 до 18:00 скидка 20% на все сорта разливного пива!</p>
+                </div>
+                <div class="offer-card">
+                    <h3 class="offer-title">Набор "Пивной Эксперт"</h3>
+                    <p class="offer-description">4 разных сорта пива + закуска на выбор за 799 ₽. Идеально для знакомства с новыми вкусами!</p>
+                </div>
+                <div class="offer-card">
+                    <h3 class="offer-title">День рождения в BEERLOGOVO</h3>
+                    <p class="offer-description">В день рождения и 3 дня после - скидка 15% на весь ассортимент при предъявлении паспорта!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">О нашем магазине</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>BEERLOGOVO — это не просто магазин пива, а настоящий уголок для ценителей качественных напитков. Мы тщательно отбираем лучшие сорта от проверенных производителей и предлагаем уникальный ассортимент как популярных, так и редких сортов пива.</p>
+                    <p>У нас вы найдете пиво на любой вкус: от классических светлых лагеров до крафтовых экспериментальных сортов. А к пиву мы предлагаем широкий выбор закусок, которые идеально дополнят ваш вечер.</p>
+                    <p>Наша команда — это настоящие знатоки пива, которые всегда помогут с выбором и расскажут о вкусовых особенностях каждого сорта. Мы регулярно проводим дегустации и тематические вечера для наших постоянных клиентов.</p>
+                </div>
+                <div class="about-advantages">
+                    <div class="advantage-item">
+                        <span class="advantage-icon">🍺</span>
+                        <h4 class="advantage-title">Всегда свежее пиво</h4>
+                        <p>Мы следим за сроками годности и условиями хранения</p>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="advantage-icon">👨‍🍳</span>
+                        <h4 class="advantage-title">Закуски собственного производства</h4>
+                        <p>Готовим по уникальным рецептам специально для нашего пива</p>
+                    </div>
+                    <div class="advantage-item">
+                        <span class="advantage-icon">🎫</span>
+                        <h4 class="advantage-title">Программа лояльности</h4>
+                        <p>Накапливайте баллы и получайте скидки на любимое пиво</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beer-gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">Галерея нашего пива</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" style="background-image: url('https://via.placeholder.com/300x300/F4A460/fff?text=Пиво+1')"></div>
+                <div class="gallery-item" style="background-image: url('https://via.placeholder.com/300x300/8B4513/fff?text=Пиво+2')"></div>
+                <div class="gallery-item" style="background-image: url('https://via.placeholder.com/300x300/D2691E/fff?text=Пиво+3')"></div>
+                <div class="gallery-item" style="background-image: url('https://via.placeholder.com/300x300/CD853F/fff?text=Пиво+4')"></div>
+                <div class="gallery-item" style="background-image: url('https://via.placeholder.com/300x300/A0522D/fff?text=Пиво+5')"></div>
+                <div class="gallery-item" style="background-image: url('https://via.placeholder.com/300x300/8B0000/fff?text=Пиво+6')"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacts" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">BEERLOGOVO</span>
+                    <p class="footer-slogan">Пиво для настоящих ценителей</p>
+                </div>
+                <div class="footer-info">
+                    <div class="footer-section">
+                        <h4 class="footer-title">Адрес</h4>
+                        <p>п.Пивозаврино, ул. Пивная, д. 42</p>
+                        <p>м. Пивная</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4 class="footer-title">Часы работы</h4>
+                        <p>Пн-Чт: 11:00 - 23:00</p>
+                        <p>Пт-Сб: 11:00 - 01:00</p>
+                        <p>Вс: 12:00 - 02:00</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4 class="footer-title">Контакты</h4>
+                        <p>Телефон: +7 (912)-306-54-55</p>
+                        <p>Email: k.nikolaev.36@mail.ru</p>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h4 class="footer-title">Мы в соцсетях</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">VK</a>
+                        <a href="#" class="social-link">Telegram</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2025 BEERLOGOVO. Все права защищены.</p>
+                <p class="footer-warning">Чрезмерное употребление алкоголя вредит вашему здоровью</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
